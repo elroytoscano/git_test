@@ -9,10 +9,10 @@
 - commit: git commit -m "message"
 - git branch -M main ---> -M rename branch
 
-### For 1st init
+## For 1st init
 
 git remote add origin git_url
 
-### Other
+## Other
 
 git push -u origin main
