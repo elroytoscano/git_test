@@ -13,3 +13,5 @@ git checkout branch_name
 ## show current branch
 
 git branch --show-current
+
+## message
