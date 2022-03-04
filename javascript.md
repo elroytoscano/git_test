@@ -20,3 +20,19 @@ let val // undefined
 
 Assigning a variable to a function does not get hoisted
 Classes don't get hoisted
+
+## First Order Functions
+
+functions that use only primitives or objects as arguments, and only return primitives or objects are named first-order functions.
+
+## Higher Order Functions
+
+- use functions as arguments or return a function
+
+## Callback functions
+
+Pass reference of function as a function call
+
+## Optional Chaining
+
+?. checks to see if the object/property exists
