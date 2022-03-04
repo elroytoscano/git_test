@@ -14,4 +14,6 @@ git checkout branch_name
 
 git branch --show-current
 
-##
+## create branch
+
+git branch branch_name
