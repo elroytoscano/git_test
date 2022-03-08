@@ -22,3 +22,12 @@ git push -u origin main
 git diff --staged > LandingPage.patch
 
 git apply LandingPage.patch
+
+## pull_requests
+
+- create branch
+- add changes
+- commit
+- create draft pull
+- keep adding changes and update comments of draft pull
+- review chnages, generally by superior
