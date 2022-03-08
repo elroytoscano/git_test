@@ -16,3 +16,9 @@ git remote add origin git_url
 ## Other
 
 git push -u origin main
+
+## Patching;
+
+git diff --staged > LandingPage.patch
+
+git apply LandingPage.patch
