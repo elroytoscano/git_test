@@ -52,10 +52,25 @@ const interval = setInterval(() => {
 
 //#endregion
 
+//#region array ops
+
 const fruits = fruitsFunction();
 fruits.addFruits('apple', 'banana');
 fruits.addFruits('mango', 'strawberry');
 fruits.addFruits('grapes', 'melons');
 fruits.addSingleFruit('lime');
+fruits.print();
 fruits.removeFirstItem();
 fruits.print();
+fruits.addFirstItem('apple', 'pineapple');
+fruits.print();
+fruits.removeFirstItem();
+fruits.print();
+const findFruit = fruits.findByName('pineapple');
+console.log(findFruit);
+const filteredfruits = fruits.filterFruit('pineapple');
+console.log(filteredfruits);
+const newArray = ['jackfruit', 'pomegranate'];
+const mergedArrays = fruits.mergeArray(newArray);
+console.log(mergedArrays);
+//#endregion

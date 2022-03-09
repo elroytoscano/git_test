@@ -11,7 +11,12 @@ const fruitsFunction = function () {
       fruits.push(fruit);
     },
     removeFirstItem: () => fruits.shift(),
+    addFirstItem: (...items) => fruits.unshift(...items),
     print,
+    findByName: (fruitName) => fruits.find((fruit) => fruit === fruitName),
+    filterFruit: (fruitName) => fruits.filter((fruit) => fruit !== fruitName),
+    removeLastItem: () => fruits.pop(),
+    mergeArray: (array) => fruits.concat(array),
   };
 };
 
