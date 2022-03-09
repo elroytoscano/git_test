@@ -74,3 +74,5 @@ const newArray = ['jackfruit', 'pomegranate'];
 const mergedArrays = fruits.mergeArray(newArray);
 console.log(mergedArrays);
 //#endregion
+
+require('./spliceAndSlice');
