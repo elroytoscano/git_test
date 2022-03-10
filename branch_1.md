@@ -17,3 +17,7 @@ git branch --show-current
 ## create branch
 
 git branch branch_name
+
+## delete branch remotely
+
+git push <remote_name> --delete <branch_name>
